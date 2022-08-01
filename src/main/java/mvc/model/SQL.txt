@@ -1,0 +1,7 @@
+CREATE DATABASE reto_05;
+
+CREATE TABLE producto(id VARCHAR(10) NOT NULL,
+		      nombre VARCHAR(50) NOT NULL,
+		      temperatura DOUBLE NOT NULL,
+		      valor_base DOUBLE NOT NULL,
+		      CONSTRAINT producto_pk PRIMARY KEY(id)); 
